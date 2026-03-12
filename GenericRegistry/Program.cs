@@ -20,6 +20,14 @@ class Registry<TKey, TValue> where TKey : IEquatable<TKey>
         keyary[count] = key;
         valueary[count++] = value;
     }
+
+    public TValue Find(TKey key)
+    {
+        for(int i = 0; i < count; i++)
+        {
+
+        }
+    }
     public void PrintAll()
     {
         for (int i = 0; i < count; i++)
